@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-charger",
+  "main": "worker.example.js",
+  "compatibility_date": "2026-10-01",
+  // 静态页面放在 ./public（index.html 读取 /api/status 并按你的布局渲染）
+  "assets": { "directory": "./public", "binding": "ASSETS" },
+  // 每分钟巡查一次
+  "triggers": { "crons": ["* * * * *"] },
+  "d1_databases": [
+    // database_id 用 `npx wrangler d1 create my-charger` 的输出填写
+    { "binding": "DB", "database_name": "my-charger", "database_id": "<你的 D1 数据库 ID>" }
+  ]
+  // 有自己的域名时可以加：
+  // "routes": [{ "pattern": "charge.example.com", "custom_domain": true }]
+}

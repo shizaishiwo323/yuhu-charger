@@ -1,0 +1,8 @@
+node_modules/
+.wrangler/
+.DS_Store
+# 抓包记录含个人信息，永远不要提交
+capture*.jsonl
+.env
+.env.*
+.dev.vars
