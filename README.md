@@ -118,7 +118,11 @@ flowchart LR
 | Y3 | `http://szlzxn.cn/wechat/wxscan/50959124` | Y7 | `http://szlzxn.cn/wechat/wxscan/50959128` |
 | Y4 | `http://szlzxn.cn/wechat/wxscan/50959125` | Y8 | `http://szlzxn.cn/wechat/wxscan/50959129` |
 
-现场布局（大屏就是按这张草图画的）：
+现场布局：下面是我在现场画的原始草图。画得确实很抽象，连我自己隔天看都要辨认半天，但 AI 还是看懂了，大屏的布局就是照着它还原出来的 😂
+
+<div align="center"><img src="assets/sketch.png" width="80%" alt="现场手绘草图"></div>
+
+转写成文字大概是这样：
 
 ```
         Y7 排：1→12 ▲ [Y7] ║ Y8 排：1→12 ▲ [Y8]
