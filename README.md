@@ -8,6 +8,7 @@
 
 [![在线使用](https://img.shields.io/badge/在线使用-charge.shizaishiwo.com-2ea44f?style=flat-square)](https://charge.shizaishiwo.com)
 [![抖音](https://img.shields.io/badge/抖音-开发故事-black?style=flat-square&logo=tiktok)](https://v.douyin.com/MpWuQrM283E/)
+[![B站](https://img.shields.io/badge/B站-开发故事-00A1D6?style=flat-square&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV1kQsi66EDQ/)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers%20%2B%20D1-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Last commit](https://img.shields.io/github/last-commit/shizaishiwo323/yuhu-charger?style=flat-square)
@@ -26,7 +27,7 @@
 哪一排、第几号口空着，走过去之前就能知道。
 
 - 🌐 **在线使用**：<https://charge.shizaishiwo.com>（电脑是大屏，手机自动切换为卡片 + 位置小地图）
-- 🎬 **开发故事**：[抖音视频](https://v.douyin.com/MpWuQrM283E/)
+- 🎬 **开发故事**：[抖音视频](https://v.douyin.com/MpWuQrM283E/) · [B站视频](https://www.bilibili.com/video/BV1kQsi66EDQ/)
 
 > [!NOTE]
 > 本项目仅供学习交流，不用于任何商业用途。数据来自充电桩平台公开展示给扫码用户的插座状态，
@@ -50,13 +51,10 @@
 
 ## ✨ 功能
 
-<table>
-<tr>
-<td width="62%"><img src="assets/desktop.png" alt="大屏"></td>
-<td width="38%"><img src="assets/mobile.png" alt="手机"></td>
-</tr>
-<tr><td align="center">电脑：按现场布局的大屏</td><td align="center">手机：位置小地图 + 每台主控器的卡片</td></tr>
-</table>
+<div align="center">
+<img src="assets/mobile.png" width="70%" alt="手机">
+<br>手机端：左边是位置小地图 + 推荐，右边是每台主控器的卡片
+</div>
 
 - 🗺️ **真实布局**：按手绘的现场草图还原 8 台主控器的位置、每排插座的方向和车头朝向，找口子不用再一排排看
 - 🔌 **精确到每个口**：空闲 / 充电中 / 浮充 / 故障四种状态，一目了然
